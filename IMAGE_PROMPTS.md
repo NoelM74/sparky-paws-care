@@ -1,4 +1,4 @@
-# SparkPawsCare — Image Prompts
+# SparkyPawsCare — Image Prompts
 
 Detailed prompts for every image placeholder on the site. Designed for high-end AI image generators (Midjourney v6+, ChatGPT/Gemini Nano Banana, FLUX 1.1 Pro, Imagen 3). Each prompt is engineered to produce a cohesive visual identity: warm, editorial, premium pet brand — never stocky, never overly saturated, never AI-slop.
 
@@ -72,7 +72,7 @@ When using Midjourney syntax: append `--ar 16:9 --style raw --stylize 200 --v 6.
 
 ### `og-default` — Default Open Graph image (1200×630)
 
-> A clean editorial composition: warm cream background with the wordmark "SparkPawsCare" in a friendly modern sans-serif (Plus Jakarta Sans, dark navy), small terracotta paw-print accent beside the word. To the right, a soft photograph of a golden retriever's face and a tabby cat's face partially overlapping — both looking gently toward the viewer. Equally weighted, never one dominating. Plenty of negative space. Premium pet brand visual identity. 1200×630 social card format.
+> A clean editorial composition: warm cream background with the wordmark "SparkyPawsCare" in a friendly modern sans-serif (Plus Jakarta Sans, dark navy), small terracotta paw-print accent beside the word. To the right, a soft photograph of a golden retriever's face and a tabby cat's face partially overlapping — both looking gently toward the viewer. Equally weighted, never one dominating. Plenty of negative space. Premium pet brand visual identity. 1200×630 social card format.
 
 ### `about-team` — About page (optional supplemental image)
 
