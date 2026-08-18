@@ -10,9 +10,9 @@
   <link rel="icon" href="https://www.sparkpaws.com/cdn/shop/files/favicon_d0d0bef2-76b1-4215-8002-5e6cdca81f4c_96x.png?v=1613539126" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" /></noscript>
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Instrument+Sans:ital,wght@0,400..700;1,400..600&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Instrument+Sans:ital,wght@0,400..700;1,400..600&display=swap" /></noscript>
+  <link rel="stylesheet" href="assets/css/styles.css?v=2" />
 
   <meta property="og:title" content="Cat Corner — SparkyPawsCare" />
   <meta property="og:description" content="Cat care articles from SparkyPawsCare. We're dog-first, but cat content is expanding — start with two pieces we're proud of." />
@@ -36,6 +36,7 @@
   "publisher": { "@id": "https://sparkypawscare.com/#organization" }
 }
   </script>
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -65,8 +66,8 @@
 
   <main id="main">
 
-    <section class="hero">
-      <div class="container container--narrow text-center">
+    <section class="hero hero--page">
+      <div class="container container--narrow">
         <span class="eyebrow">Cat corner — coming soon</span>
         <h1>We're dog-first. We're not cat-blind.</h1>
         <p class="lead">Spark Paws started in dog apparel, and that's where most of our editorial energy lives today. But cat parents are a huge part of our community, and the cat side of this site is actively expanding. Start with the two pieces below.</p>
@@ -77,7 +78,7 @@
       <div class="container">
         <img src="assets/images/cat-corner-banner.webp" alt="Two cats in a sunlit living room — one perched on a high shelf, one curled on a blanket below, warm afternoon light" class="section-banner" width="1200" height="514" loading="lazy" />
         <div class="grid grid--2">
-          <article class="card">
+          <article class="card" data-reveal>
             <div class="card__img">
               <img src="assets/images/card-indoor-cat.webp" alt="A sleek adult tabby cat perched on a tall cat tree by a sunlit window, watching birds at a feeder outside" width="800" height="500" loading="lazy" />
             </div>
@@ -89,7 +90,7 @@
             </div>
           </article>
 
-          <article class="card">
+          <article class="card" data-reveal>
             <div class="card__img">
               <img src="assets/images/card-cat-knock.webp" alt="Close-up of a grey cat's paw deliberately pressing against a glass tumbler teetering on the edge of a wooden table" width="800" height="500" loading="lazy" />
             </div>
@@ -110,12 +111,12 @@
           <span class="eyebrow">What's coming</span>
           <h2>Cat content we're working on next.</h2>
           <p>A non-exhaustive preview of what's in our editorial pipeline:</p>
-          <ul style="list-style: none; padding: 0; text-align: left; max-width: 540px; margin: var(--space-5) auto 0; color: var(--color-ink-soft);">
-            <li>&middot; Why your cat's tail tells you more than their meow does</li>
-            <li>&middot; The truth about dry food, wet food, and the urinary problems both can cause</li>
-            <li>&middot; Multi-cat households: how to introduce a new cat without a six-month war</li>
-            <li>&middot; Litter box math: the rule veterinarians wish every owner knew</li>
-            <li>&middot; Catios, leash training, and the safe middle ground between indoor and outdoor</li>
+          <ul class="pipeline-list">
+            <li>Why your cat's tail tells you more than their meow does</li>
+            <li>The truth about dry food, wet food, and the urinary problems both can cause</li>
+            <li>Multi-cat households: how to introduce a new cat without a six-month war</li>
+            <li>Litter box math: the rule veterinarians wish every owner knew</li>
+            <li>Catios, leash training, and the safe middle ground between indoor and outdoor</li>
           </ul>
           <p style="margin-top: var(--space-6);" class="muted">Subscribe via Spark Paws to be the first to read them.</p>
         </div>
@@ -162,6 +163,6 @@
     </div>
   </footer>
 
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js?v=2"></script>
 </body>
 </html>

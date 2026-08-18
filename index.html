@@ -10,9 +10,9 @@
   <link rel="icon" href="https://www.sparkpaws.com/cdn/shop/files/favicon_d0d0bef2-76b1-4215-8002-5e6cdca81f4c_96x.png?v=1613539126" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" /></noscript>
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Instrument+Sans:ital,wght@0,400..700;1,400..600&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Instrument+Sans:ital,wght@0,400..700;1,400..600&display=swap" /></noscript>
+  <link rel="stylesheet" href="assets/css/styles.css?v=2" />
   <meta property="og:title" content="SparkyPawsCare — Weekly Pet Care Tips from Spark Paws" />
   <meta property="og:description" content="Vet-informed weekly pet care tips for the Spark Paws community." />
   <meta property="og:type" content="website" />
@@ -55,6 +55,7 @@
   ]
 }
   </script>
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -93,7 +94,7 @@
               <span class="hero__badge-dot">SP</span>
               The official pet care newsletter from <strong>&nbsp;Spark Paws</strong>
             </span>
-            <h1>Real tips for real pet parents.</h1>
+            <h1>Real tips for <em>real</em> pet parents.</h1>
             <p class="hero__sub">
               SparkyPawsCare is the weekly newsletter home for Spark Paws customers — delivering
               vet-informed dog &amp; cat care tips straight to your inbox. Plain text. No clutter.
@@ -105,7 +106,7 @@
             </div>
             <p class="hero__note">Already a subscriber? <a href="unsubscribe.html">Manage your preferences or unsubscribe</a>.</p>
           </div>
-          <div>
+          <div class="hero__figure">
             <img
               src="assets/images/hero-home.webp"
               alt="Golden retriever wearing a Spark Paws harness in a sunlit kitchen, owner's hand resting gently on its shoulder"
@@ -151,7 +152,7 @@
 
         <div class="grid grid--3">
 
-          <article class="card">
+          <article class="card card--lead" data-reveal>
             <div class="card__img">
               <img src="assets/images/card-feeding.webp" alt="Overhead photo of a measuring cup of dry kibble beside a stainless steel dog bowl on a wooden countertop" width="800" height="500" loading="lazy" />
             </div>
@@ -163,7 +164,7 @@
             </div>
           </article>
 
-          <article class="card">
+          <article class="card" data-reveal>
             <div class="card__img">
               <img src="assets/images/card-pavement.webp" alt="A hand pressed against sun-baked asphalt performing the pavement temperature test, dog on leash waiting in background" width="800" height="500" loading="lazy" />
             </div>
@@ -175,7 +176,7 @@
             </div>
           </article>
 
-          <article class="card">
+          <article class="card" data-reveal>
             <div class="card__img">
               <img src="assets/images/card-leaveit.webp" alt="A trainer's closed fist held out at puppy height while an attentive young Labrador looks up in a training session" width="800" height="500" loading="lazy" />
             </div>
@@ -187,7 +188,7 @@
             </div>
           </article>
 
-          <article class="card">
+          <article class="card" data-reveal>
             <div class="card__img">
               <img src="assets/images/card-vet-signs.webp" alt="A veterinarian in blue scrubs gently lifting a calm dog's lip to check gum color, dog looking up trustingly" width="800" height="500" loading="lazy" />
             </div>
@@ -199,7 +200,7 @@
             </div>
           </article>
 
-          <article class="card">
+          <article class="card" data-reveal>
             <div class="card__img">
               <img src="assets/images/card-harness.webp" alt="A medium-sized dog wearing a navy chest harness mid-stride on a tree-lined park path, owner's legs visible" width="800" height="500" loading="lazy" />
             </div>
@@ -211,7 +212,7 @@
             </div>
           </article>
 
-          <article class="card">
+          <article class="card" data-reveal>
             <div class="card__img">
               <img src="assets/images/card-staring.webp" alt="A scruffy mixed-breed dog sitting by the dining table, head tilted, eyes locked on its owner eating, warm evening light" width="800" height="500" loading="lazy" />
             </div>
@@ -241,7 +242,7 @@
         </div>
 
         <div class="grid grid--2">
-          <article class="card">
+          <article class="card" data-reveal>
             <div class="card__img">
               <img src="assets/images/card-indoor-cat.webp" alt="A sleek adult tabby cat perched on a tall cat tree by a sunlit window, watching birds at a feeder outside" width="800" height="500" loading="lazy" />
             </div>
@@ -253,7 +254,7 @@
             </div>
           </article>
 
-          <article class="card">
+          <article class="card" data-reveal>
             <div class="card__img">
               <img src="assets/images/card-cat-knock.webp" alt="Close-up of a grey cat's paw deliberately pressing against a glass tumbler teetering on the edge of a wooden table" width="800" height="500" loading="lazy" />
             </div>
@@ -281,7 +282,7 @@
         </div>
 
         <div class="features">
-          <div class="feature">
+          <div class="feature" data-reveal>
             <div class="feature__icon" aria-hidden="true">
               <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l9 6 9-6M3 8v10a2 2 0 002 2h14a2 2 0 002-2V8M3 8l9-5 9 5"/></svg>
             </div>
@@ -289,7 +290,7 @@
             <p>One plain-text email per week with one actionable pet care idea. No clutter, no images, no noise.</p>
           </div>
 
-          <div class="feature">
+          <div class="feature" data-reveal>
             <div class="feature__icon" aria-hidden="true">
               <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4"/></svg>
             </div>
@@ -297,7 +298,7 @@
             <p>You're on this list because you bought from Spark Paws. We don't buy lists. We don't share your email. Ever.</p>
           </div>
 
-          <div class="feature">
+          <div class="feature" data-reveal>
             <div class="feature__icon" aria-hidden="true">
               <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6M5 8h14a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2v-8a2 2 0 012-2z"/></svg>
             </div>
@@ -377,6 +378,6 @@
     </div>
   </footer>
 
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js?v=2"></script>
 </body>
 </html>
