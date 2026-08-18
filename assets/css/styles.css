@@ -211,18 +211,24 @@ hr {
 }
 .nav__brand:hover { color: var(--ink); }
 
+/* ---- Logo mark ---- */
+.logo-paw { fill: var(--navy); }
+.logo-spark { fill: var(--terracotta); }
+
 .nav__logo-mark {
-  width: 36px; height: 36px;
-  border-radius: 50%;
-  background: var(--navy);
-  color: var(--paper);
-  display: grid;
-  place-items: center;
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 0.9rem;
-  letter-spacing: 0.01em;
+  width: 38px;
+  height: 38px;
   flex-shrink: 0;
+  display: block;
+  overflow: visible;
+  transition: transform 0.4s var(--ease);
+}
+.nav__logo-mark .logo-spark {
+  transform-origin: 84px 17px;
+  transition: transform 0.45s var(--ease), opacity 0.45s var(--ease);
+}
+.nav__brand:hover .nav__logo-mark .logo-spark {
+  transform: rotate(90deg) scale(1.15);
 }
 
 .nav__brand-text { display: flex; flex-direction: column; line-height: 1.15; }
@@ -394,14 +400,17 @@ hr {
 }
 .hero__badge strong { color: var(--ink); font-weight: 600; }
 .hero__badge-dot {
-  width: 21px; height: 21px;
+  width: 22px; height: 22px;
   border-radius: 50%;
   background: var(--terracotta);
-  color: #fff;
-  display: grid; place-items: center;
-  font-size: 0.62rem;
-  font-weight: 700;
-  font-family: var(--font-display);
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+.hero__badge-dot svg {
+  width: 13px;
+  height: 13px;
+  fill: #fff;
 }
 
 .hero h1 {
@@ -911,6 +920,15 @@ hr {
   .footer__grid { grid-template-columns: 1fr; gap: var(--space-6); }
 }
 
+.footer__mark {
+  width: 36px;
+  height: 36px;
+  display: block;
+  margin-bottom: var(--space-4);
+}
+.footer__mark .logo-paw { fill: var(--paper-warm); }
+.footer__mark .logo-spark { fill: var(--terracotta); }
+
 .footer__brand-name {
   font-family: var(--font-display);
   font-weight: 650;
@@ -999,7 +1017,7 @@ hr {
     min-height: 44px;
   }
   .footer__links li { margin-bottom: 0; }
-  .nav__logo-mark { width: 44px; height: 44px; font-size: 1rem; }
+  .nav__brand { min-height: 44px; }
   .nav__toggle { min-width: 44px; min-height: 44px; align-items: center; justify-content: center; }
   .hero__note a { display: inline-block; padding: 6px 0; }
 }

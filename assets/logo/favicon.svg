@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="SparkyPawsCare">
+  <title>SparkyPawsCare</title>
+  <!-- Simplified icon variant: the spark is dropped so the mark stays legible at 16px -->
+  <circle cx="50" cy="50" r="50" fill="#344D79"/>
+  <g fill="#FFFDF9" transform="translate(50 52) scale(0.88) translate(-46 -56)">
+    <ellipse cx="24.7" cy="43.4" rx="6.8" ry="11.7" transform="rotate(-52 24.7 43.4)"/>
+    <ellipse cx="37.7" cy="34.3" rx="6.8" ry="11.7" transform="rotate(-18 37.7 34.3)"/>
+    <ellipse cx="54.3" cy="34.3" rx="6.8" ry="11.7" transform="rotate(18 54.3 34.3)"/>
+    <ellipse cx="67.3" cy="43.4" rx="6.8" ry="11.7" transform="rotate(52 67.3 43.4)"/>
+    <path d="M46 59 C57.7 59 67.2 65.3 67.6 73.4 C68.1 82.4 58.6 88.7 46 88.7 C33.4 88.7 23.9 82.4 24.4 73.4 C24.8 65.3 34.3 59 46 59 Z"/>
+  </g>
+</svg>
